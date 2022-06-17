@@ -1,0 +1,18 @@
+.plansScreen{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    opacity: 0.7;
+    margin: 10px;
+}
+
+.plansScreen:hover{
+    opacity: 1;
+}
+.subscribe_button{
+    border: none;
+    background-color: #E50914;
+    color: white;
+    cursor: pointer;
+    width: 6rem;
+}

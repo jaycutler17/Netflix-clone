@@ -1,0 +1,90 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+
+}
+.netflix_logo{
+    width: 150px;
+    margin: 14px 0px 30px 14px;
+z-index: 2;
+}
+.signin_div{
+    padding: 30px 30px;
+    border-bottom: 2px solid grey;
+    padding-bottom: 70px;
+    z-index: 2;
+    background: rgba(0,0,0,0.8);
+}
+.signin_div h1{
+    padding: 30px 0px 10px 0px;
+}
+
+.login_content{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.inputs{
+    width: 99%;
+    background-color: #333;
+    border-radius: 3px;
+    border: none;
+    margin: 10px 0px;
+    height: 3rem;
+}
+
+.signin_button ,.sign_up_button{
+    height: 3rem;
+    border-radius: 3px;
+    background-color:#E50914 ;
+    color: white;
+    cursor: pointer;
+    margin-top: 40px;
+    border: none;
+    outline: none;
+}
+.OR{
+    text-align: center;
+    margin-top: -10px;
+}
+
+.sign_up_button{
+    width: 100%;
+    margin-top: 10px;
+
+}
+.info{
+    margin-top: 40px;
+    padding-bottom: 60px;
+}
+
+@media only screen and (min-width : 740px){
+    .login{
+        background-image: url(https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png);
+        color: #ffffff;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    .background_gradient_forlogin{
+        position: absolute;
+        height: 100vh;
+        width:100%;
+        z-index:1;
+        background: rgba(0,0,0,0.4);
+        background-image: linear-gradient(to top ,
+        rgba(0,0,0,0.8)  0% ,
+        rgba(0,0,0,0) 60% ,
+        rgba(0,0,0,0.8) 100%);
+    }
+    .signin_div{
+        margin: auto auto;
+        padding: 40px 60px;
+        border-bottom: none;
+        width: 300px;
+        margin: 0 auto;
+    }
+}
